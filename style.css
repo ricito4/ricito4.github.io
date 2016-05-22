@@ -1,10 +1,62 @@
 body {
 	background-color: rgb(192, 192, 192);
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 95%;
 }
 
-.tabular {
-	display: inline-block;
-	border: 3px solid black; 
-	margin: 10px;
-	padding: 10px;
+#first {
+	text-align: center;
 }
+	
+.side-by {
+    display: table;
+}
+
+.listtable {
+	display: table-cell;
+    vertical-align: top;
+    width: 30%;
+}
+
+.image {
+	display: block;
+	width:75%;
+	height: 75%;
+}
+
+#tabular {
+	display: inline-block;
+	border: 1px solid black; 
+	margin: 10px;
+	padding: 5px;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: gray;
+}
+
+footer {
+	border: 3px solid black; 
+	background-image: url(abstract-blue.jpg);
+	margin: 10px;
+	padding: 5px;
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 12px;
+}
+
+
+@media screen and (min-width: 960px) {
+  body {
+	width: 50%;
+	}
+
+}
+
