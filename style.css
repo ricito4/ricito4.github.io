@@ -1,0 +1,10 @@
+body {
+	background-color: rgb(192, 192, 192);
+}
+
+.tabular {
+	display: inline-block;
+	border: 3px solid black; 
+	margin: 10px;
+	padding: 10px;
+}
